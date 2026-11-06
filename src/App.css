@@ -52,6 +52,14 @@ button{
     object-position: center;
     display: block;
 }
+/* Subtle dark overlay */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
 
 
 /* Text on top of image */

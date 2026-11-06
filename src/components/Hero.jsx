@@ -8,7 +8,7 @@ function Hero() {
          <img
         className="hero-background"
         src="https://i.pinimg.com/736x/53/a4/11/53a4114a2ce09eab32940c28933dad8a.jpg"
-        alt="Beautiful furniture"
+        alt="Beautiful furniture" 
       />
 
       <div className='hero-content'>
